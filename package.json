@@ -1,0 +1,47 @@
+{
+  "name": "hardhat-solang",
+  "version": "0.0.0",
+  "license": "MIT",
+  "description": "bike shed hardhat solang integration",
+  "keywords": [
+    "solana",
+    "solidity",
+    "substrate",
+    "ewasm",
+    "smart-contracts",
+    "hardhat",
+    "hardhat-plugin"
+  ],
+  "author": {
+    "name": "t3rn",
+    "url": "https://www.t3rn.io/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/t3rn/hardhat-solang.git"
+  },
+  "bugs": "https://github.com/t3rn/hardhat-solang/issues",
+  "main": "src/index.js",
+  "scripts": {
+    "fmt": "prettier --arrow-parens avoid --print-width 80 --write './**/*.js'",
+    "test": "cd test && npm i && npm t && cd ..",
+    "postinstall": ""
+  },
+  "dependencies": {
+    "@solana/buffer-layout": "4.0.0",
+    "@solana/solidity": "0.0.18",
+    "@solana/web3.js": "1.33.0",
+    "fast-glob": "3.2.11"
+  },
+  "devDependencies": {
+    "chai": "4.3.6",
+    "mocha": "9.2.0",
+    "prettier": "2.5.1"
+  },
+  "peerDependencies": {
+    "@solana/buffer-layout": "4.0.0",
+    "@solana/web3.js": "1.33.0",
+    "fast-glob": "3.2.11",
+    "hardhat": "2.8.3"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test"
+  },
+  "devDependencies": {
+    "@solana/web3.js": "1.33.0",
+    "@solana/buffer-layout": "4.0.0",
+    "@solana/solidity": "0.0.18",
+    "chai": "4.3.6",
+    "fast-glob": "3.2.11",
+    "hardhat": "2.8.3",
+    "hardhat-solang": "file:../"
+  }
+}
